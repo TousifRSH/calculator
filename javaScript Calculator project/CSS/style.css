@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+#container{
+    margin: 3rem auto;
+    width: fit-content;
+}
+
+#container h1{
+    color: 	#4c6290;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#calculator{
+    background-color: 	#fbe3ff;
+    padding: 0.5rem;
+}
+#calculator #screen{
+    border-bottom: 1px solid black;
+   
+}
+#calculator #screen p{
+    height: 1.5rem;
+}
+#resulthistory{
+    color: #666;
+}
+
+#keysbords{
+    padding: 0.5rem 0;
+}
+
+#keysbords button{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    margin: 0.3rem;
+    font-size: 20px;
+}
+
+tr:nth-child(1) td:nth-child(4) button:nth-child(1){
+    background-color: 	#256867ad;
+}
+
+tr:nth-child(2) td:nth-child(4) button:nth-child(1){
+    background-color: 	#4c6f69;
+}
+
+tr:nth-child(3) td:nth-child(4) button:nth-child(1){
+    background-color: 	#817570;
+}
+
+tr:nth-child(4) td:nth-child(4) button:nth-child(1){
+    background-color: 		#bacad0;
+}
+
+tr:nth-child(5) td:nth-child(4) button:nth-child(1){
+    background-color: 	#dadfe4;
+}
+
+tr:nth-child(5) td:nth-child(3) button:nth-child(1){
+    background-color: #afe5ff;
+}
+
